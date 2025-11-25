@@ -91,6 +91,7 @@ body {
 /* Header */
 .header {
   background-color: #151B28;
+  border-bottom: 1px solid #2E3545;
 }
 
 .nav {
@@ -336,12 +337,9 @@ body {
 
 }
 
-.demonstrate-desktop {
-  display: none;
-}
-
-.demonstrate-tablet {
-  display: none;
+.demonstrate-pic{
+  width: 100%;
+  height: auto;
 }
 
 /* Product Features End*/
@@ -474,7 +472,7 @@ body {
 
   a {
     color: #A5ACBA;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -625,18 +623,6 @@ body {
     gap: 48px;
   }
 
-  .demonstrate-desktop {
-    display: none;
-  }
-
-  .demonstrate-mobile {
-    display: none;
-  }
-
-  .demonstrate-tablet {
-    display: block;
-  }
-
   /* Testimonials */
 
   .testimonials-content {
@@ -758,6 +744,9 @@ body {
 
   .logo-desktop {
     display: block;
+  }
+
+  .logo-desktop-mb {
     margin-bottom: 22px;
   }
 
@@ -828,18 +817,15 @@ body {
   }
 
   .product-features-content {
-
     flex-direction: row;
     gap: 140px;
 
   }
 
-  .demonstrate-desktop {
-    display: block;
-  }
-
-  .demonstrate-tablet {
-    display: none;
+  .product-features-text{
+    p{
+      margin-bottom: 40px;
+    }
   }
 
   /* Testimonials */
@@ -922,6 +908,13 @@ body {
   .footer-logo {
     grid-row: auto;
     grid-column: auto;
+  }
+
+  .footer-list {
+
+    a {
+      font-weight: 600;
+    }
   }
 
   .footer-list-md {
